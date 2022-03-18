@@ -1,0 +1,19 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0",
+  "type": "AdaptiveCard",
+  "speak": "Дата и время",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Fri, October 10 8:30 AM",
+      "weight": "bolder",
+      "spacing": "none"
+    },
+    {
+      "type": "Input.Time",
+      "text": "localTimestamp"
+
+    }
+  ]
+}
